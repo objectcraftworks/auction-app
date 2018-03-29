@@ -329,6 +329,7 @@ function displayEndHours(seconds) {
     return "Auction ends in " + remaining_seconds + " seconds";
   }
 }
+//dapp-auction-multisig-escrow-ipfs-offchain.git
 window.addEventListener('load', function () {
   // Checking if Web3 has been injected by the browser (Mist/MetaMask)
   if (typeof web3 !== 'undefined') {
